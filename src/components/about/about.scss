@@ -1,0 +1,19 @@
+@import "../../style/App.scss";
+
+#about {
+  padding: 60px 0;
+}
+.titulos {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+@media screen and (max-width: 990px) {
+  #about {
+    text-align: center;
+  }
+}
+.wrapper p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
