@@ -3,6 +3,11 @@
 #about {
   padding: 60px 0;
 }
+.fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .titulos {
   padding-top: 2%;
   padding-bottom: 1%;

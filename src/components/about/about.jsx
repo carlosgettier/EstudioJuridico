@@ -23,16 +23,16 @@ const about = () => (
       <p>Creemos en que cada persona debe ser capaz de ejercer sus derechos de manera plena. </p>
       <p>No estás cansado de los largos procesos judiciales, de los errores constantes de los profesionales que los llevan a cabo, de la incertidumbre que los largos procesos conllevan, y al final obtener una respuesta que no sientas como realmente favorable.</p>
       <p>Contáctanos. Nosotros podemos brindarte una solución, resolver tus problemas, ejercer tus derechos de manera plena, eficaz, y sencilla.</p>
-      <Row>
+      <Row className="fotos">
         <Col md={12} lg={4}>
           <TeamBox avatar={Person01} name="Agustin Sobrero" job="Abogado" />
         </Col>
         <Col md={12} lg={4}>
           <TeamBox avatar={Person02} name="Juanito Perez" job="Abogado" />
         </Col>
-        <Col md={12} lg={4}>
+        {/* <Col md={12} lg={4}>
           <TeamInfo />
-        </Col>
+        </Col> */}
       </Row>
     </div>
   </div>
