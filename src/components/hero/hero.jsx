@@ -16,7 +16,7 @@ const hero = () => (
 
       <h1 className="titulo">Sobrero Pratto & Asoc</h1>
 
-      <p className="tex">Nuestra Misión es brindar seguridad y confianza a través de soluciones integrales y adecuadas a las necesidades de cada cliente.</p>
+      <p className="tex">Nuestra Misión es brindar soluciones integrales y adecuadas a las necesidades de cada cliente.</p>
 
       <img src={HeroImage} alt="hero" className="fondo" />
     </div>

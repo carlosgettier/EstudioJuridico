@@ -24,4 +24,12 @@
   p:last-child:hover {
     color: $main-color;
   }
+  .boton-contact {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 25px;
+  }
+  .boton-contact:hover {
+    background-color: yellow;
+  }
 }
