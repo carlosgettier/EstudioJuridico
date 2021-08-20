@@ -2,16 +2,37 @@
 
 #portfolio {
   padding: 20px 0 40px 0;
+  p {
+    font-family: "Montserrat", sans-serif;
+  }
   .contenedorBarra {
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
+    position: relative;
   }
+  .contenedorBarra::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: rgb(3, 3, 3), $alpha: 0.7);
+  }
+
   .foto {
-    opacity: 0.8;
-    height: 150px;
+    opacity: 1;
+    height: 200px;
     box-shadow: 6px 6px 6px 6px rgba(66, 66, 66, 0.582);
     width: 100%;
+  }
+  .service {
+    position: absolute;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(200, 199, 199, 0.842);
   }
   .barra {
     display: flex;
@@ -19,13 +40,16 @@
     justify-content: space-around;
     margin: 1%;
     position: absolute;
-    margin-top: 5%;
-    width: 80%;
+    margin-top: 10%;
+    width: 100%;
+    color: rgba(200, 199, 199, 0.842);
     font-size: 20px;
-    font-weight: bold;
+
+    cursor: pointer;
   }
   .barra a:hover {
-    background-color: yellow;
+    color: rgb(226, 240, 146);
+    background-color: rgba(190, 189, 189, 0.5);
     border-radius: 2%;
   }
   .portfolio__nav {
@@ -107,12 +131,18 @@
         justify-content: center;
       }
     }
+    .service {
+      position: absolute;
+      margin-top: 2%;
+      font-size: 25px;
+      font-weight: bold;
+    }
     .barra {
       display: flex;
       flex-direction: row;
 
       position: absolute;
-      margin-top: 5%;
+      margin-top: 14%;
       width: 100%;
       font-size: 13px;
       text-align: justify;
@@ -126,7 +156,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #portfolio {
     .portfolio__nav {
       ul {
@@ -136,13 +166,18 @@
         }
       }
     }
-
+    .service {
+      position: absolute;
+      margin-top: 2%;
+      font-size: 25px;
+      font-weight: bold;
+    }
     .barra {
       display: flex;
       flex-direction: column;
-
+      margin-left: 14%;
       position: absolute;
-      margin-top: 5%;
+      margin-top: 19%;
       width: 100%;
       font-size: 13px;
       text-align: justify;

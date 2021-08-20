@@ -5,7 +5,7 @@ export const Modal = () => {
     return (
         <div className="modales" id="Modal">
             <h1> DERECHO LABORAL</h1>
-            <p>Poseemos la capacidad para representar TRABAJADORES y EMPRESAS en el ámbito laboral. Tanto en el momento de inicio de la relación laboral, como en su ejecución, y finalización.</p>
+            <p className="parrafo">Poseemos la capacidad para representar TRABAJADORES y EMPRESAS en el ámbito laboral. Tanto en el momento de inicio de la relación laboral, como en su ejecución, y finalización.</p>
             <p>Creemos crucial la generación de vías de diálogo, que permitan solucionar de manera pacífica los conflictos que puedan devenir durante el transcurso de toda la relación laboral.</p>
             <p>Entendemos que la comunicación entre TRABAJADORES y EMPLEADORES es esencial para lograr un equilibrio, colocando a ambos sujetos en una situación de equidad, evitando los abusos comunes efectuados por los EMPLEADORES, e intentando informar al TRABAJADOR de manera íntegra a fin de lograr que su vida dentro de la EMPRESA sea pacífica y beneficiosa para ambas partes.</p>
             <p>Algunos de los rubros que abarcamos: </p>
@@ -47,7 +47,7 @@ export const Modal = () => {
                     <p>•  Pagos en Negro</p>
                 </li>
             </ul>
-            <h4>Ante la caótica situación econónica, muchos empleadores proponen a sus empleados realizar acuerdos, que consiste en que éstos presenten su renuncia a cambio de una suma de dinero.⚠</h4>
+            <p>Ante la caótica situación econónica, muchos empleadores proponen a sus empleados realizar acuerdos, que consiste en que éstos presenten su renuncia a cambio de una suma de dinero.⚠</p>
             <p> - En principio  no firme nada sin antes asesorarte</p>
             <p>- Consulta con un profesional si esa suma que proponen es correcta,CONFORME TUS DERECHOS, o si esta por debajo de la indemnización correspondiente</p>
             <p>- Tene en cuenta, que al firmar tu renuncia, estás tambien renunciando a tus DERECHOS.</p>

@@ -36,10 +36,8 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            ABOUT
+            ¿QUIENES SOMOS?
           </Link>
-
-
         </li>
         <li className="flex-center">
           <Link
@@ -54,8 +52,8 @@ const mobileNav = (props) => (
             SERVICIOS
           </Link>
         </li>
-        <li className="flex-center">
-          {/* <Link
+        {/* <li className="flex-center">
+           <Link
             activeClass="active-link"
             to="blog"
             spy={true}
@@ -65,8 +63,8 @@ const mobileNav = (props) => (
             onClick={props.closeMobileMenu}
           >
             BLOG
-          </Link> */}
-        </li>
+          </Link> *
+        </li> */}
         <li className="flex-center">
           <Link
             activeClass="active-link"
@@ -77,7 +75,7 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            CONTACTO
+            CONTACTOS
           </Link>
         </li>
       </ul>

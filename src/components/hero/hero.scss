@@ -1,12 +1,12 @@
 @import "../../style/App.scss";
 
 .hero {
-  background-color: aqua;
   width: 100%;
   padding-top: 0%;
 }
 .hero p {
-  font-family: "Great Vibes", cursiva;
+  // font-family: "Great Vibes", cursiva;
+  font-family: "Montserrat", sans-serif;
 }
 .hero-image {
   display: flex;
@@ -41,7 +41,7 @@
   font-size: 25px;
   width: 70%;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .titulo {
   position: absolute;
@@ -113,6 +113,29 @@
     position: absolute;
     color: rgba(209, 206, 206, 0.876);
     margin-top: -30%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero {
+    .hero-info {
+      text-align: center;
+    }
+  }
+  .tex {
+    position: absolute;
+    margin-top: 50%;
+    color: rgba(209, 206, 206, 0.876);
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+  }
+  .titulo {
+    position: absolute;
+    color: rgba(209, 206, 206, 0.876);
+    margin-top: -50%;
     text-align: center;
     font-size: 30px;
     font-weight: bold;

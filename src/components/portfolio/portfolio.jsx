@@ -8,7 +8,7 @@ import "./portfolio.scss";
 import Preview1 from "../../assets/portfolio/project01/images.jpg";
 import Preview2 from "../../assets/portfolio/project02/descarga.jpg";
 import Preview3 from "../../assets/portfolio/project03/images.jpg";
-import foto from '../../assets/portfolio/foto.png'
+import foto from '../../assets/portfolio/OIPA.jpg'
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -115,8 +115,10 @@ class Portfolio extends React.Component {
     return (
       <div id="portfolio">
         <div className="wrapper">
-          <Title title="SERVICIOS" />
+
           <div className="contenedorBarra">
+            {/* <Title title="SERVICIOS" className="service" /> */}
+            <h1 className="service">SERVICIOS</h1>
             <img src={foto} className="foto" />
             <div className="barra">
 
