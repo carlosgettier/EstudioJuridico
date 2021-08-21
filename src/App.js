@@ -12,6 +12,7 @@ import About from "./components/about/about";
 import Blog from "./components/blog/blog";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import { Tarjetas } from './components/Tarjeta/Tarjetas';
 
 class App extends React.Component {
   state = {
@@ -70,8 +71,8 @@ class App extends React.Component {
         <Hero />
         <About />
         <Portfolio />
-
         <Contact />
+        <Tarjetas />
         <Footer />
       </div>
     );

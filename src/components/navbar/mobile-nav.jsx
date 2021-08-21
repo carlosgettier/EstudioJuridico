@@ -52,19 +52,7 @@ const mobileNav = (props) => (
             SERVICIOS
           </Link>
         </li>
-        {/* <li className="flex-center">
-           <Link
-            activeClass="active-link"
-            to="blog"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            onClick={props.closeMobileMenu}
-          >
-            BLOG
-          </Link> *
-        </li> */}
+
         <li className="flex-center">
           <Link
             activeClass="active-link"
@@ -76,6 +64,19 @@ const mobileNav = (props) => (
             onClick={props.closeMobileMenu}
           >
             CONTACTOS
+          </Link>
+        </li>
+        <li className="flex-center">
+          <Link
+            activeClass="active-link"
+            to="Tarjeta"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={props.closeMobileMenu}
+          >
+            TARJETA DIGITAL
           </Link>
         </li>
       </ul>

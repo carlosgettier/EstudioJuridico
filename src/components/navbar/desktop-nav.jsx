@@ -39,6 +39,14 @@ const desktopNav = (props) => (
               CONTACTOS
             </Link>
           </li>
+          <li>
+            <Link activeClass="active-link" to="Tarjeta" spy={true} smooth={true} offset={-70} duration={500}>
+              TARJETA DIGITAL
+            </Link>
+          </li>
+
+
+
         </ul>
       </div>
     </div>
