@@ -6,7 +6,7 @@ import TeamBox from './teamBox';
 import TeamInfo from "./teamInfo";
 import Title from "../ui-components/title/title";
 // Assets
-import Person01 from "../../assets/about/images.jpg";
+import Person01 from "../../assets/about/agus.jpg";
 import Person02 from "../../assets/about/descarga.jpg";
 
 const about = () => (
@@ -25,11 +25,11 @@ const about = () => (
       <p>Contáctanos. Nosotros podemos brindarte una solución, resolver tus problemas, ejercer tus derechos de manera plena, eficaz, y sencilla.</p>
       <Row className="fotos">
         <Col md={12} lg={4}>
-          <TeamBox avatar={Person01} name="Agustin Sobrero" job="Abogado" />
+          <TeamBox avatar={Person01} name="Agustin Sobrero Pratto" job="Abogado" />
         </Col>
-        <Col md={12} lg={4}>
+        {/* <Col md={12} lg={4}>
           <TeamBox avatar={Person02} name="Juanito Perez" job="Abogado" />
-        </Col>
+        </Col> */}
         <Col md={12} lg={4}>
           <TeamInfo />
         </Col>
