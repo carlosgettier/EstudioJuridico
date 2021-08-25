@@ -1,5 +1,6 @@
 import React from 'react'
 import './styleTPD.css'
+import Person01 from "../../assets/about/agus.jpg";
 
 export const Tarjetas = () => {
 
@@ -22,7 +23,7 @@ export const Tarjetas = () => {
                         <section>
                             <div className="content">
                                 <img
-                                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/256492/_mLIxaKY_400x400.jpg"
+                                    src={Person01}
                                     alt="Profile Image"
                                 />
 
