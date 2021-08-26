@@ -29,4 +29,13 @@
       color: $white-color;
     }
   }
+  .team__box-info:hover {
+    background-color: black;
+    p {
+      color: gray;
+    }
+    p:nth-child(2) {
+      color: gray;
+    }
+  }
 }
