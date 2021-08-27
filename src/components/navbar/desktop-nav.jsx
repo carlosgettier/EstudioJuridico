@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 // SCSS
 import './navbar.scss';
 // Assets
-import LogoImg from '../../assets/navbar/LogoNegro.png';
+import LogoImg from '../../assets/navbar/LogoTodoBlanco.png';
 import MobileMenuIcon from '../../assets/navbar/mobile-menu.svg';
 
 const desktopNav = (props) => (
@@ -11,14 +11,14 @@ const desktopNav = (props) => (
     <div className="wrapperflex-s-between">
       <div>
         <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
-          <img src={LogoImg} alt="logo" className="pointer" />
+          <img src={LogoImg} alt="logo" className="tamanioLogo pointer" />
         </Link>
       </div>
       <div className="mobile__menu" onClick={props.mobileMenuOpen}>
         <img src={MobileMenuIcon} alt="menu" />
       </div>
       <div className="desktop__menu">
-        <ul className="flex-s-between">
+        <ul className="flex-s-between" style={{height:"100%"}}>
           <li>
             <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={500}>
               QUIENES SOMOS
@@ -44,9 +44,6 @@ const desktopNav = (props) => (
               TARJETA DIGITAL
             </Link>
           </li>
-
-
-
         </ul>
       </div>
     </div>
