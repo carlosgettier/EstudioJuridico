@@ -58,7 +58,7 @@ export const Tarjetas = () => {
 
                     <nav className="nav">
                         <a
-                            href="https://web.whatsapp.com/send?phone=+54 9 3513 09-5631"
+                            href="https://api.whatsapp.com/send?phone=+54 9 3513 09-5631"
                             target="blank"
                             className="phone"
                         >
