@@ -14,8 +14,8 @@ const contactInfoBox = (props) => (
     </div>
     <div>
       <p>{props.textLine1}</p>
-      <p>{props.textLine2}</p>
-      <p>{props.textLine3}</p>
+      {/* <p>{props.textLine2}</p> */}
+      {/* <p>{props.textLine3}</p> */}
     </div>
   </div>
 );
